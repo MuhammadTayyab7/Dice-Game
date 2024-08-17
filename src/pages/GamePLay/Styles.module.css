@@ -1,0 +1,18 @@
+/* .Main Container  */
+.container {
+    padding-top: 70px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.Button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 36px;
+}

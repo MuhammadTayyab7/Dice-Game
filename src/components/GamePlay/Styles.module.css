@@ -1,0 +1,49 @@
+/* TotalScore */
+.ScoreBox {
+    max-width: 200px;
+    text-align: center;
+
+    h1 {
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+    p {
+        font-size: 24px;
+        font-weight: 500px;
+    }
+}
+
+/* NumberSelector */
+.NumberContainer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    .NumbersBox {
+        display: flex;
+        gap: 24px;
+    }
+
+    p {
+        font-size: 24px;
+        font-weight: 700px;
+    }
+
+    .Box {
+        height: 72px;
+        width: 72px;
+        border: 1px solid black;
+        display: grid;
+        place-items: center;
+        font-size: 24px;
+        font-weight: 700px;
+    }
+
+    .Selected {
+        background-color: black;
+        color: white;
+    }
+
+}
